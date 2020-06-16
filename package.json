@@ -1,0 +1,25 @@
+{
+  "name": "todolist-api-app",
+  "version": "1.0.0",
+  "description": "nodejs todolist api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamalGuyo/todolist.git"
+  },
+  "keywords": [
+    "todolist"
+  ],
+  "author": "Jamal Guyo Abgudo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamalGuyo/todolist/issues"
+  },
+  "homepage": "https://github.com/JamalGuyo/todolist#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
