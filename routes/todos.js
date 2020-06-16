@@ -7,5 +7,10 @@ router.get('/', (req,res) => {
     .then(todos => res.json(todos))
     .catch(err => console.log(err))
 })
+router.post('/', (req,res)=>{
+    db.Todo.create(req.body)
+    .then(newTodo => res.status(201).json(newTodo))
+    .catch(err => console.log(err));
+})
 
 module.exports = router;
