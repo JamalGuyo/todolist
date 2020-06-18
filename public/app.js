@@ -17,7 +17,7 @@ function addTodos(todos){
 }
 // add todo
 function addTodo(todo){
-    let newTodo = $(`<li class="task">${todo.name}</li>`);
+    let newTodo = $(`<li class="task">${todo.name} <span>X</span</li>`);
         if(todo.completed){
             newTodo.addClass("done");
         }
